@@ -1,3 +1,3 @@
 # eslint-9
 
-cat project.sh | bash
+ curl -o- https://raw.githubusercontent.com/n201248i/eslint-9/refs/heads/main/project.sh | bash
