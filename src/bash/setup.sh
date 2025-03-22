@@ -1,0 +1,1 @@
+# Here will be a script for setting up new server
