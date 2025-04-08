@@ -1,15 +1,18 @@
 {
-  "name": "eslint-9",
-  "module": "index.ts",
+  "name": "template",
+  "version": "0.0.1",
+  "module": "src/index.ts",
   "type": "module",
   "private": true,
   "scripts": {
+    "dev": "bun upgrade && bun i && bun init-husky.ts && bun --watch src/index.ts",
     "lint:dev": "bun eslint . --c eslint.config.js --ext .ts,.js --fix",
     "prepare": "husky"
   },
   "devDependencies": {
     "@eslint/js": "^9.23.0",
     "@types/bun": "latest",
+    "@types/node": "latest",
     "eslint": "^9.23.0",
     "eslint-plugin-react": "^7.37.4",
     "globals": "^16.0.0",

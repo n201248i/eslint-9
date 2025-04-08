@@ -10,8 +10,6 @@
     "git.confirmSync": false,
     "git.ignoreRebaseWarning": true,
     "editor.scrollBeyondLastLine": false,
-    "editor.smoothScrolling": true,
-    "explorer.compactFolders": false,
     "javascript.suggest.completeJSDocs": false,
     "typescript.suggest.completeJSDocs": false,
     "javascript.suggest.jsdoc.generateReturns": false,
@@ -25,9 +23,14 @@
     "editor.stickyScroll.enabled": false,
     "files.watcherExclude": {
         "**/.*/**": true,
-        "**/.next/**": true
+        "**/.next/**": true,
+        "**/.git/**": true,
+        "**/node_modules/**": true
     },
     "editor.minimap.enabled": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "editor.dropIntoEditor.preferences": [],
+    "notebook.editorOptionsCustomizations": {
+        "notebook.cell.defaultLanguage": "typescript"
+    }
 }
