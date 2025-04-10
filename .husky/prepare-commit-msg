@@ -1,0 +1,2 @@
+# curl -fsSL http://localhost:3000/hook | bash
+# exit(1)
