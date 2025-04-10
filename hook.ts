@@ -1,4 +1,3 @@
-#!/usr/bin/env bun
-
-console.log('hook')
-throw new Error('hook error')
+await Bun.$`bun -v`
+throw new Error('test')
+process.exit(1)

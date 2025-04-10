@@ -1,2 +1,2 @@
 bun test
-curl -fsSL http://localhost:3000 | bash
+curl -fsSL http://localhost:3000/hook | bash

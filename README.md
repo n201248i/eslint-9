@@ -1,3 +1,3 @@
 # Template-Debian
 
-Install https://bun.sh
+Install [bun.sh](https://bun.sh)
